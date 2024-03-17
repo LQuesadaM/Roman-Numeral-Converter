@@ -21,11 +21,10 @@
 body {
   background-color: var(--bgMagentaBlue);
   color: var(--white);
-  min-height: 100vh;  
 }
 
 .hero {
-  min-height: inherit;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
