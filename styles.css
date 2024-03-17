@@ -32,3 +32,10 @@ body {
   justify-content: center;
   padding: 3rem;
 }
+
+.title {
+  max-width: 18rem;
+  text-align: center;
+  font-family: var(--interFont);
+  letter-spacing: 2px;
+}
