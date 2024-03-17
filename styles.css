@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
 
 *,
@@ -37,4 +37,30 @@ body {
   text-align: center;
   font-family: var(--interFont);
   letter-spacing: 2px;
+}
+
+.container-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--darkGay);
+  padding: 1.5rem;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  max-width: 400px;
+  width: 100%;
+  border: 2px solid var(--white);
+}
+
+.input {
+  min-height: 2.5rem;
+  width: 100%;
+  margin: 1rem;
+}
+
+.btn {
+  width: 100%;
+  padding: 1rem;
+  background: var(--bgBtn);
+  font-size: 1.3rem;
 }
