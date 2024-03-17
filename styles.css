@@ -15,4 +15,20 @@
   --bgBtn: linear-gradient(#fecc4c, #ffac33);
   --interFont: "Inter Tight", sans-serif;
   --latoFont: "Lato", sans-serif;
+  --white: #f5f6f7;
+}
+
+body {
+  background-color: var(--bgMagentaBlue);
+  color: var(--white);
+  min-height: 100vh;  
+}
+
+.hero {
+  min-height: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
 }
