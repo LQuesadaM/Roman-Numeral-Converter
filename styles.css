@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,504;1,504&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bgMagentaBlue: #1b1b32;
+  --darkGay: #3b3b4f;
+  --bgBtn: linear-gradient(#fecc4c, #ffac33);
+  --interFont: "Inter Tight", sans-serif;
+  --latoFont: "Lato", sans-serif;
+}
