@@ -28,14 +28,14 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 3rem;
+  padding: 2rem;
 }
 
 .title {
-  max-width: 18rem;
+  max-width: 20rem;
   text-align: center;
-  font-family: var(--interFont);
-  font-size: 2.25rem;
+  font-family: var(--latoFont);
+  font-size: 2.5rem;
 }
 
 .container-input {
