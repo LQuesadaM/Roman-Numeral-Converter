@@ -51,10 +51,18 @@ body {
   border: 2px solid var(--white);
 }
 
+.label, .input {
+  font-family: var(--interFont);
+  font-weight: 700;
+}
+
 .input {
-  min-height: 2.5rem;
+  min-height: 3.5rem;
   width: 100%;
   margin: 1rem;
+  font-size: 2rem;
+  background-color: #0A0A23;
+  color: var(--white);
 }
 
 .btn {
