@@ -39,7 +39,7 @@ body {
   font-size: 2.5rem;
 }
 
-.container-input {
+.container-input, .output {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -73,4 +73,13 @@ body {
   background: var(--bgBtn);
   font-size: 1.3rem;
   border: 2px solid orange;
+}
+
+.output {
+  display: none;
+  margin-top: 1.5rem;
+  padding: 10px;
+  font-size: 2.5rem;
+  font-family: var(--latoFont);
+  text-transform: uppercase;
 }
