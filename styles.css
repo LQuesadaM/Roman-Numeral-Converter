@@ -28,7 +28,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   padding: 3rem;
 }
 
@@ -36,7 +35,7 @@ body {
   max-width: 18rem;
   text-align: center;
   font-family: var(--interFont);
-  letter-spacing: 2px;
+  font-size: 2.25rem;
 }
 
 .container-input {
