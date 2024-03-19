@@ -16,6 +16,7 @@
   --interFont: "Inter", sans-serif;
   --latoFont: "Lato", sans-serif;
   --white: #f5f6f7;
+  --bgInput: #0A0A23;
 }
 
 body {
@@ -61,8 +62,9 @@ body {
   width: 100%;
   margin: 1rem;
   font-size: 2rem;
-  background-color: #0A0A23;
+  background-color: var(--bgInput);
   color: var(--white);
+  border: 2px solid var(--white);
 }
 
 .btn {
