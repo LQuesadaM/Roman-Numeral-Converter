@@ -72,4 +72,5 @@ body {
   padding: 1rem;
   background: var(--bgBtn);
   font-size: 1.3rem;
+  border: 2px solid orange;
 }
