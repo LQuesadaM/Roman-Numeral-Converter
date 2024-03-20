@@ -62,6 +62,7 @@ body {
 .input {
   min-height: 3.5rem;
   width: 100%;
+  padding-left: .5rem;
   margin: 1rem;
   font-size: 2rem;
   background-color: var(--bgInput);
