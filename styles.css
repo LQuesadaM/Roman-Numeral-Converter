@@ -16,7 +16,7 @@
   --interFont: "Inter", sans-serif;
   --latoFont: "Lato", sans-serif;
   --white: #f5f6f7;
-  --bgInput: #0A0A23;
+  --bgInput: #0a0a23;
 }
 
 body {
@@ -39,7 +39,8 @@ body {
   font-size: 2.5rem;
 }
 
-.container-input, .output {
+.container-input,
+.output {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -52,7 +53,8 @@ body {
   border: 2px solid var(--white);
 }
 
-.label, .input {
+.label,
+.input {
   font-family: var(--interFont);
   font-weight: 700;
 }
@@ -77,10 +79,8 @@ body {
 }
 
 .output {
-  display: none;
   margin-top: 1.5rem;
   padding: 10px;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-family: var(--latoFont);
-  text-transform: uppercase;
 }
