@@ -41,5 +41,24 @@ const values = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1];
 // prevent reload page
 convertBtn.addEventListener("click", (e) => {
   e.preventDefault();
+  checkValue();
 });
 
+
+const checkValue = () => {
+  if (numberInput.value === "") {
+    output.classList.remove("hide");
+    output.classList.add("warning");
+    output.innerText = "Please enter a valid number.";
+  } else if (numberInput.value <= 0) {
+    output.classList.remove("hide");
+    output.classList.add("warning");
+    output.innerText = "Please enter a number greater than or equal to 1.";
+  } else if (numberInput.value >= 4000) {
+    output.classList.remove("hide");
+    output.classList.add("warning");
+    output.innerText = "Please enter a number less than or equal to 3999.";
+  } else {
+    
+  }
+};
