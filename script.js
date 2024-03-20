@@ -59,10 +59,11 @@ const checkValue = () => {
     output.classList.add("warning");
     output.innerText = "Please enter a number less than or equal to 3999.";
   } else {
+    let inputInt = parseInt(numberInput.value)
     values.forEach((element, index) => {
-      while (numberInput.value >= element) {
+      while (inputInt >= element) {
         result += romansNumbers[index];
-        numberInput.value -= element;
+        inputInt -= element;
       }
     });
     output.classList.remove("hide");
