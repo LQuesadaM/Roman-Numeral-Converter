@@ -37,13 +37,13 @@ const romansNumbers = [
 ];
 
 const values = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1];
+let result = "";
 
 // prevent reload page
 convertBtn.addEventListener("click", (e) => {
   e.preventDefault();
   checkValue();
 });
-
 
 const checkValue = () => {
   if (numberInput.value === "") {
@@ -59,6 +59,15 @@ const checkValue = () => {
     output.classList.add("warning");
     output.innerText = "Please enter a number less than or equal to 3999.";
   } else {
-    
+    values.forEach((element, index) => {
+      while (numberInput.value >= element) {
+        result += romansNumbers[index];
+        numberInput.value -= element;
+      }
+    });
+    output.classList.remove("hide");
+    output.classList.remove("warning");
+    output.innerText = result;
+    result = "";
   }
 };
