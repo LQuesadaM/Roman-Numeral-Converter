@@ -84,3 +84,15 @@ body {
   font-size: 2rem;
   font-family: var(--latoFont);
 }
+
+.hide {
+  display: none;
+}
+
+.warning {
+  padding: 1.5rem 0;
+  background-color: #f8bfbf;
+  border: 3px solid #ec0c0c;
+  color: #850000;
+  text-align: center;
+}
